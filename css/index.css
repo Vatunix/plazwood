@@ -1,34 +1,39 @@
 .container{
-    width: Fill (1,920px)px;
-    height: Hug (92px)px;
-    padding: 24px 24px 0px 24px;
-    gap: 0px;
-    border: 0px 0px 8px 0px;
-    justify: space-between;
-    opacity: 0px;
+  width: 100vw;
+  height: Hug (92px)px;
+  padding: 24px 24px 0px 24px;
+  gap: 0px;
+  border: 0px 0px 8px 0px;
+  justify: space-between;
+  opacity: 0px;
 }
 .dropdown-menu{
-    width: Fixed (540px)px;
-    height: Fixed (1,080px)px;
-    padding: 48px 0px 0px 0px;
-    gap: 48px;
-    opacity: 0px;    
-    font-family: manrope;
+  width: Fixed (540px)px;
+  height: Fixed (1,080px)px;
+  padding: 48px 0px 0px 0px;
+  gap: 48px;
+  opacity: 0px;    
+  font-family: manrope;
 }
 .close{
-    width: Hug (52px)px;
-    height: Hug (52px)px;
-    padding: 12px 0px 0px 0px;
-    gap: 10px;
-    opacity: 0px;   
-    border: 1px solid #2F2D2E
+  width: Hug (52px)px;
+  height: Hug (52px)px;
+  padding: 12px 0px 0px 0px;
+  gap: 10px;
+  opacity: 0px;   
+  border: 1px solid #2F2D2E
 }
-.dropdown-item{
-    font-family: Manrope;
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 44px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+.dropdown-item {
+  font-family: Manrope;
+  font-size: 40px;
+	font-weight: 800;
+	color: #C9C0BA;
+  line-height: 44px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.dropdown-item:hover {
+	color: black;
 }
