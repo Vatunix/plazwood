@@ -16,7 +16,8 @@
 </head>
 <body> 
   <div class="container">
-    <div class="dropdown">
+    <div class="hedder">
+      <div class="dropdown">
       <a class="btn-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         <img src="/img/menu_button.png" alt="">
       </a>
@@ -76,14 +77,15 @@
           </span>
         </div>
       </ul>
-    </div>
-    <div class="logo">
+      </div>
+      <div class="logo">
       <img src="/img/vector.png" alt="">
-    </div>
-    <div class="dilers">
+      </div>
+      <div class="dilers">
       <a class="dilers" href="#">
         Дилерам
       </a>
+      </div>
     </div>
     <div class="product_catalog">
       <div class="catalog_head">
@@ -98,10 +100,12 @@
             Каталог товаров
           </a>
         </div>
-        <span class="big_catalog_text">
+        <div style="display: flex; justify-content: space-between;">
+          <span class="big_catalog_text">
           Каталог товаров
-        </span>
-        <div class="progress_bar">
+          </span>
+          <div style="display: flex; align-items: center;">
+            <div class="progress_bar">
           <span class="number_progress_bar">
             01
           </span>
@@ -110,10 +114,50 @@
           <span class="number_progress_bar">
             02
           </span>
-        </div>
-        <div class="navigation_buttons">
+            </div>
+            <div class="navigation_buttons">
           <img style="padding-right: 16px; padding-left: 40px;" src="/img/left_arrow.png" alt="">
           <img src="/img/right_arrows.png" alt="">
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="collection">
+        <div class="collection_container">
+          <img src="/img/voyage.png" alt="" class="collection_img">
+          <div></div>
+          <div class="text">
+            Коллекция «Вояж»
+            <p class="low_text">
+              Современные дизайнерские<br>
+              обеденные и журнальные столы
+            </p>
+          </div>
+          <img src="/img/collection_icon.png" alt="" class="collection_icon">
+        </div>
+        <div class="collection_container">
+          <img src="/img/rivers.png" alt="" class="collection_img">
+          <div></div>
+          <div class="text">
+            Коллекция «Реки»
+            <p class="low_text">
+              Столы из массива березы<br>
+              и шпона натурального дуба
+            </p>
+          </div>
+          <img src="/img/collection_icon.png" alt="" class="collection_icon">
+        </div>
+        <div class="collection_container">
+          <img src="/img/flora.png" alt="" class="collection_img">
+          <div></div>
+          <div class="text">
+            Коллекция «Флора»
+            <p class="low_text">
+              Журнальные столы из шпона<br>
+              натурального дуба
+            </p>
+          </div>
+          <img src="/img/collection_icon.png" alt="" class="collection_icon">
         </div>
       </div>
     </div>  

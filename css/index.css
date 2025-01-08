@@ -4,8 +4,11 @@
   padding: 24px 24px 0px 24px;
   gap: 0px;
   border: 0px 0px 8px 0px;
-  justify: space-between;
   opacity: 0px;
+}
+.hedder{
+  display: flex;
+  justify-content: space-between;
 }
 .networks{
   display: inline-block;
@@ -23,7 +26,6 @@
   display: inline; 
 }
 .logo{
-  padding: 24px 663px 0px 663px;
   display: inline;
 }
 .dropdown-menu{
@@ -139,8 +141,8 @@
   color: #2F2D2E;
 }
 .progress_bar{
-  padding: 52px 24px 0px 820px;
-  display: inline;
+  display: flex;
+  align-items: center;
   width: 301px;
   height: 44px;
   gap: 16px;
@@ -166,4 +168,54 @@
 }
 .navigation_buttons{
   display: inline;
+}
+
+
+.collection{
+  padding: 24px 0px 0px 0px;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.collection_container{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: 50% 50%;
+  padding-right: 24px;
+  width: 608px;
+  height: 380px;
+}
+.collection_img{
+  grid-column: 1 / 2;
+  width: 608px;
+  height: 380px;
+  object-fit: fill;
+  filter: brightness(60%);
+  border-radius: 8px;
+}
+.collection_icon{
+  z-index: 1;
+  padding: 100px 0px 0px 60px;
+}
+.text{
+  font-family: Manrope;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 44px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+  z-index: 1;
+  padding: 64px 0px 0px 32px;
+}
+.low_text{
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
