@@ -48,13 +48,49 @@ document.getElementById('item_venako_m').innerHTML = productDetail.map(product =
             </div>
             <div class="product_form_main_content_div_stiles_variant">
               <div class="product_form_main_content_div_stiles_variant_venako">
-                Венако
+                <div id="rectangle" class="product_form_main_content_div_stiles_variant_venako_rectangle">
+                </div>
+                <div>
+                  Венако
+                </div>
               </div>
               <div class="product_form_main_content_div_stiles_variant_vense">
-                Венсе
+                <div id="square" class="product_form_main_content_div_stiles_variant_vense_square">
+                </div>
+                <div>
+                  Венсе
+                </div> 
               </div>
               <div class="product_form_main_content_div_stiles_variant_leer">
-                Леер
+                <div id="elipse" class="product_form_main_content_div_stiles_variant_leer_elipse">
+                </div>
+                <div>
+                  Леер
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="product_form_main_content_div_size">
+            <div  class="product_form_main_content_div_size_text">
+              <div class="product_form_main_content_div_size_text_top">
+                Размер стола
+              </div>
+              <a href="/index.html" class="product_form_main_content_div_size_text_bot">
+                Таблица размеров
+              </a>
+            </div>
+            <div class="product_form_main_content_div_size_variants">
+              <div class="product_form_main_content_div_size_variants_first">
+                <input type="radio" class="product_form_main_content_div_size_variants_first_checkbox">
+                <div class="product_form_main_content_div_size_variants_first_number">
+                  1450 х 750 мм
+                </div>
+              </div>
+              <div class="product_form_main_content_div_size_variants_second">
+                <input type="radio" class="product_form_main_content_div_size_variants_first_checkbox">
+                <div class="product_form_main_content_div_size_variants_first_number">
+                  1200 х 700 мм
+                </div>
               </div>
             </div>
           </div>

@@ -491,15 +491,18 @@
 .product_form_main{
   padding-top: 24px;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(auto-fit,50% 50%);
 }
 .product_form_main_img_div{
   display: grid;
   justify-items: end;
 }
 .product_form_img_main{
-  width: 732px;
-  height: 646px;
+  max-width: 732px;
+  max-height: 646px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
   border-radius: 8px;
 }
 
@@ -568,7 +571,7 @@
   padding-left: 24px;
   padding-top: 24px;
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 25% 75%;
   max-width: 708px;
 }
 .product_form_main_content_div_stiles_text{
@@ -583,9 +586,163 @@
 }
 .product_form_main_content_div_stiles_variant{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 140px 107px 132px;
 }
 .product_form_main_content_div_stiles_variant_venako{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #C9C0BA;
+  border-radius: 8px;
+  width: 131px;
+  height: 40px;
+}
+.product_form_main_content_div_stiles_variant_venako:hover{
+  border: 1px solid #2A2824B2;
+  cursor: pointer;
+}
+.product_form_main_content_div_stiles_variant_venako_rectangle{
+  justify-self: center;
+  padding-right: 10px;
+  width: 48px;
+  height: 24px;
+  border-radius: 2px;
+  border: 1px solid #2F2D2E;
+  background-color: #2A2824B2;
+}
+.product_form_main_content_div_stiles_variant_vense{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #C9C0BA;
+  border-radius: 8px;
+  width: 99px;
+  height: 40px;
+}
+.product_form_main_content_div_stiles_variant_vense:hover{
+  border: 1px solid #2F2D2E;
+  cursor: pointer;
+}
+.product_form_main_content_div_stiles_variant_vense_square{
+  justify-self: center;
+  padding-right: 10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+  border: 1px solid #C9C0BA;
+  background-color: #E9E4E0;
+}
+.product_form_main_content_div_stiles_variant_leer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #C9C0BA;
+  border-radius: 8px;
+  width: 92px;
+  height: 40px;
+}
+.product_form_main_content_div_stiles_variant_leer:hover{
+  border: 1px solid #2F2D2E;
+  cursor: pointer;
+}
+.product_form_main_content_div_stiles_variant_leer_elipse{
+  justify-self: center;
+  padding-right: 10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 360px;
+  border: 1px solid #C9C0BA;
+  background-color: #E9E4E0;
+}
+
+
+.product_form_main_content_div_size{
+  padding-left: 24px;
+  padding-top: 24px;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  max-width: 708px;
+}
+.product_form_main_content_div_size_text{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.product_form_main_content_div_size_text_top{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.product_form_main_content_div_size_text_bot{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #C4B0A2;
+}
+
+.product_form_main_content_div_size_variants{
+  display: grid;
+  grid-template-columns: 31% 79%;
+}
+.product_form_main_content_div_size_variants_first{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  padding: 12px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #2A2824B2;
+}
+.product_form_main_content_div_size_variants_first_checkbox{
+  width: 16px;
+  height: 16px;
+  padding: 3px;
+  border-radius: 8px;
+  border: 1px solid #2A2824B2;
+  color:#2A2824B2;
+  cursor: pointer;
+}
+/*.product_form_main_content_div_size_variants_first_checkbox::after{
+  width: 10px;
+  height: 10px;
+  border: 1px solid #2A2824B2;
+  border-color: #C4B0A2;
+}*/
+.product_form_main_content_div_size_variants_first_number{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2A2824B2;
+}
+.product_form_main_content_div_size_variants_second{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  padding: 12px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #2A2824B2;
 }
