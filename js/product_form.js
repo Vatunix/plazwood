@@ -50,26 +50,27 @@ document.getElementById('item_venako_m').innerHTML = productDetail.map(product =
               <div class="product_form_main_content_div_stiles_variant_venako">
                 <div id="rectangle" class="product_form_main_content_div_stiles_variant_venako_rectangle">
                 </div>
-                <div>
+                <div class="product_form_main_content_div_stiles_variant_venako_text">
                   Венако
                 </div>
               </div>
               <div class="product_form_main_content_div_stiles_variant_vense">
                 <div id="square" class="product_form_main_content_div_stiles_variant_vense_square">
                 </div>
-                <div>
+                <div class="product_form_main_content_div_stiles_variant_vense_text">
                   Венсе
                 </div> 
               </div>
               <div class="product_form_main_content_div_stiles_variant_leer">
                 <div id="elipse" class="product_form_main_content_div_stiles_variant_leer_elipse">
                 </div>
-                <div>
+                <div class="product_form_main_content_div_stiles_variant_leer_text">
                   Леер
                 </div> 
               </div>
             </div>
           </div>
+
           <div class="product_form_main_content_div_size">
             <div  class="product_form_main_content_div_size_text">
               <div class="product_form_main_content_div_size_text_top">
@@ -78,7 +79,7 @@ document.getElementById('item_venako_m').innerHTML = productDetail.map(product =
               <a href="/index.html" class="product_form_main_content_div_size_text_bot">
                 Таблица размеров
               </a>
-            </div>
+            </div>            
             <div class="product_form_main_content_div_size_variants">
               <div class="product_form_main_content_div_size_variants_first">
                 <input type="radio" class="product_form_main_content_div_size_variants_first_checkbox">
@@ -94,8 +95,140 @@ document.getElementById('item_venako_m').innerHTML = productDetail.map(product =
               </div>
             </div>
           </div>
+
+          <div class="product_form_main_content_div_colors">
+            <div class="product_form_main_content_div_colors_text">
+              Цвет столешницы
+            </div>
+            <div class="product_form_main_content_div_colors_type"> 
+              <div class="product_form_main_content_div_colors_type_nature">
+                <img src="/img/rustik_nature.png" class="product_form_main_content_div_colors_type_nature_img">
+                <div class="product_form_main_content_div_colors_type_nature_text">
+                  Рустик натуральный
+                </div>
+              </div>
+              <div class="product_form_main_content_div_colors_type_brown">
+                <img src="/img/rustik_brown.png" class="product_form_main_content_div_colors_type_brown_img">
+                <div class="product_form_main_content_div_colors_type_brown_text">
+                  Рустик браун
+                </div>
+              </div>
+              <div class="product_form_main_content_div_colors_type_graphite">
+                <img src="/img/rustik_graphite.png" class="product_form_main_content_div_colors_type_graphite_img">
+                <div class="product_form_main_content_div_colors_type_graphite_text">
+                  Рустик графит
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product_form_main_content_div_pattern">
+            <div class="product_form_main_content_div_pattern_text">
+              <div class="product_form_main_content_div_pattern_text_top">
+                Узор столешницы
+              </div>
+              <a href="/index.html" class="product_form_main_content_div_pattern_text_bottom">
+                Таблица узоров
+              </a>
+            </div>
+            <div class="product_form_main_content_div_pattern_variant">
+              <div class="product_form_main_content_div_pattern_variant_first">
+                <input type="radio" class="product_form_main_content_div_pattern_variant_first_checkbox">
+                <div class="product_form_main_content_div_pattern_variant_first_text">
+                  Узор 1
+                </div>
+              </div>
+              <div class="product_form_main_content_div_pattern_variant_first">
+                <input type="radio" class="product_form_main_content_div_pattern_variant_first_checkbox">
+                <div class="product_form_main_content_div_pattern_variant_first_text">
+                  Узор 2
+                </div>
+              </div>
+              <div class="product_form_main_content_div_pattern_variant_first">
+                <input type="radio" class="product_form_main_content_div_pattern_variant_first_checkbox">
+                <div class="product_form_main_content_div_pattern_variant_first_text">
+                  Узор 3
+                </div>
+              </div>
+              <div class="product_form_main_content_div_pattern_variant_first">
+                <input type="radio" class="product_form_main_content_div_pattern_variant_first_checkbox">
+                <div class="product_form_main_content_div_pattern_variant_first_text">
+                  Узор 4
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product_form_main_content_div_legcolor">
+            <div class="product_form_main_content_div_legcolor_text">
+              Цвет ножек
+            </div>
+            <div class="product_form_main_content_div_legcolor_variant">
+              <div class="product_form_main_content_div_legcolor_variant_white">
+                <div id="square" class="product_form_main_content_div_legcolor_variant_white_square">
+                </div>
+                <div class="product_form_main_content_div_legcolor_variant_white_text">
+                  Белый
+                </div> 
+              </div>
+              <div class="product_form_main_content_div_legcolor_variant_gray">
+                <div id="square" class="product_form_main_content_div_legcolor_variant_gray_square">
+                </div>
+                <div class="product_form_main_content_div_legcolor_variant_gray_text">
+                  Серый
+                </div> 
+              </div>
+              <div class="product_form_main_content_div_legcolor_variant_black">
+                <div id="square" class="product_form_main_content_div_legcolor_variant_black_square">
+                </div>
+                <div class="product_form_main_content_div_legcolor_variant_black_text">
+                  Чёрный
+                </div> 
+              </div>
+            </div>
+          </div>
+
+          <div class="product_form_main_content_div_price">
+            <div class="product_form_main_content_div_price_promo">
+              <div class="product_form_main_content_div_price_promo_top">
+                20 300 руб
+              </div>
+              <div class="product_form_main_content_div_price_promo_bottom">
+                при покупке в комплекте (от 2-х шт.)
+              </div>
+            </div>
+
+            <div class="product_form_main_content_div_price_common">
+              <div class="product_form_main_content_div_price_common_top">
+                22 300 руб
+              </div>
+              <div class="product_form_main_content_div_price_common_bottom">
+                без комплекта (1 шт.)
+              </div>
+            </div>
+
+            <div class="product_form_main_content_div_price_buttons">
+              <button class="product_form_main_content_div_price_buttons_minus">
+                <div class="product_form_main_content_div_price_buttons_minus_in">
+                </div>
+              </button>
+              <div id="counter" class="product_form_main_content_div_price_buttons_counter">
+                2
+              </div>
+              <button class="product_form_main_content_div_price_buttons_plus">
+                <div class="product_form_main_content_div_price_buttons_plus_in">
+                </div>
+              </button>
+            </div>
+
+            <button class="product_form_main_content_div_price_basket">
+              В КОРЗИНУ
+            </button>
+
+          </div>
         </div>
       </div>
     </div>
     `
+
 ).join('')
