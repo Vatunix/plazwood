@@ -510,7 +510,7 @@
   display: grid;
   max-height: 646px;
   grid-template-rows: 24px 100px 42px 42px 42px 42px 42px 1fr;
-  row-gap: 24px;
+  row-gap: 18.5px;
   max-width: 732px;
 }
 .product_form_main_content_div_had{
@@ -518,7 +518,7 @@
   justify-items: start;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 558px;
-  padding: 12px 0px 0px 24px;
+  padding-left: 24px;
 }
 .product_form_main_content_div_had_spans{
   font-family: Inter;
@@ -568,6 +568,7 @@
 }
 
 .product_form_main_content_div_stiles{
+  padding-top: 16px;
   padding-left: 24px;
   display: grid;
   grid-template-columns: 25% 75%;
@@ -689,9 +690,8 @@
   border: 1px solid #C9C0BA;
   background-color: #E9E4E0;
 }
-
-
 .product_form_main_content_div_size{
+  margin-top: 24px;
   padding-left: 24px;
   display: grid;
   grid-template-columns: 25% 75%;
@@ -789,6 +789,7 @@
 .product_form_main_content_div_colors{
   display: grid;
   grid-template-columns: 25% 75%;
+  margin-top: 24px;
   padding-left: 24px;
   max-width: 708px;
 }
@@ -896,6 +897,7 @@
 .product_form_main_content_div_pattern{
   display: grid;
   grid-template-columns: 25% 75%;
+  margin-top: 24px;
   padding-left: 24px;
   max-width: 708px;
 }
@@ -963,6 +965,7 @@
 .product_form_main_content_div_legcolor{
   display: grid;
   grid-template-columns: 25% 75%;
+  margin-top: 24px;
   padding-left: 24px;
   max-width: 708px;
 }
@@ -1092,7 +1095,6 @@
 /*Низ продукста*/
 .product_form_main_content_div_price{
   display: grid;
-  grid-template-columns: 40% 60%;
   grid-template-rows: 50% 50%;
   width: 708px;
   height: 158px;
@@ -1100,6 +1102,7 @@
   background-color: #E9E4E0;
   border-radius: 8px;
   padding: 16px;
+  margin-top: 24px;
   margin-left: 24px;
 }
 .product_form_main_content_div_price_promo{
@@ -1139,6 +1142,7 @@
   color: #C4B0A2;
 }
 .product_form_main_content_div_price_common_bottom{
+  margin-top: 4px;
   font-family: Inter;
   font-size: 14px;
   font-weight: 600;
@@ -1153,8 +1157,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: start;
-  width: 154px;
-  height: 52px;
+  width: 156px;
+  height: 53px;
+  border: 1px solid #C4B0A2;
+  border-radius: 8px;
+  background-color: #FBFBFB;
 }
 .product_form_main_content_div_price_buttons_minus{
   display: flex;
@@ -1162,7 +1169,7 @@
   align-items: center;
   width: 52px;
   height: 52px;
-  border-radius: 8px;
+  border-radius: 6px;
   border: 1px solid #C4B0A2;
   background-color: #FBFBFB;
 }
@@ -1180,7 +1187,7 @@
   align-items: center;
   width: 52px;
   height: 52px;
-  border-radius: 8px;
+  border-radius: 6px;
   border: 1px solid #C4B0A2;
   background-color: #FBFBFB;
 }
@@ -1200,6 +1207,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 51px;
+  height: 51px;
+  border: 1px solid #FBFBFB;
+  background-color: #FBFBFB;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2F2D2E;
 }
 .product_form_main_content_div_price_basket{
   width: 497px;
@@ -1214,4 +1234,13 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #FFFFFF;
+}
+/*Выравниивание цены*/
+.product_form_main_content_div_price_full{
+  display: grid;
+  grid-template-columns: 43% 57%;
+}
+.product_form_main_content_div_price_buttons_full{
+  display: grid;
+  grid-template-columns: 27% 73%;
 }

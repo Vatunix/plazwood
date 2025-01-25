@@ -187,48 +187,61 @@ document.getElementById('item_venako_m').innerHTML = productDetail.map(product =
               </div>
             </div>
           </div>
+          
 
           <div class="product_form_main_content_div_price">
-            <div class="product_form_main_content_div_price_promo">
-              <div class="product_form_main_content_div_price_promo_top">
-                20 300 руб
-              </div>
-              <div class="product_form_main_content_div_price_promo_bottom">
-                при покупке в комплекте (от 2-х шт.)
-              </div>
-            </div>
-
-            <div class="product_form_main_content_div_price_common">
-              <div class="product_form_main_content_div_price_common_top">
-                22 300 руб
-              </div>
-              <div class="product_form_main_content_div_price_common_bottom">
-                без комплекта (1 шт.)
-              </div>
-            </div>
-
-            <div class="product_form_main_content_div_price_buttons">
-              <button class="product_form_main_content_div_price_buttons_minus">
-                <div class="product_form_main_content_div_price_buttons_minus_in">
+            <div class="product_form_main_content_div_price_full">
+              <div class="product_form_main_content_div_price_promo">
+                <div class="product_form_main_content_div_price_promo_top">
+                  20 300 руб
                 </div>
-              </button>
-              <div id="counter" class="product_form_main_content_div_price_buttons_counter">
-                2
-              </div>
-              <button class="product_form_main_content_div_price_buttons_plus">
-                <div class="product_form_main_content_div_price_buttons_plus_in">
+                <div class="product_form_main_content_div_price_promo_bottom">
+                  при покупке в комплекте (от 2-х шт.)
                 </div>
-              </button>
+              </div>
+
+              <div class="product_form_main_content_div_price_common">
+                <div class="product_form_main_content_div_price_common_top">
+                  22 300 руб
+                </div>
+                <div class="product_form_main_content_div_price_common_bottom">
+                  без комплекта (1 шт.)
+                </div>
+              </div>
             </div>
 
-            <button class="product_form_main_content_div_price_basket">
-              В КОРЗИНУ
-            </button>
+            <div class="product_form_main_content_div_price_buttons_full">
+              <div class="product_form_main_content_div_price_buttons">
+                <button id="buttonsMinus" class="product_form_main_content_div_price_buttons_minus">
+                  <div class="product_form_main_content_div_price_buttons_minus_in">
+                  </div>
+                </button>
+                <input id="counter" value="2" class="product_form_main_content_div_price_buttons_counter">
+                <button id="buttonsPlus" class="product_form_main_content_div_price_buttons_plus">
+                  <div class="product_form_main_content_div_price_buttons_plus_in">
+                  </div>
+                </button>
+              </div>
+
+              <button class="product_form_main_content_div_price_basket">
+                В КОРЗИНУ
+              </button>
+            </div>
 
           </div>
         </div>
       </div>
     </div>
     `
-
 ).join('')
+
+const counterInput = document.getElementById("counter");
+const buttonM = document.getElementById("buttonsMinus");
+const buttonP = document.getElementById("buttonsPlus");
+
+buttonM.addEventListener("click", function(){
+  counterInput.value = parseInt(counterInput.value) - 1;
+});
+buttonP.addEventListener("click", function(){
+  counterInput.value = parseInt(counterInput.value) + 1;
+});
