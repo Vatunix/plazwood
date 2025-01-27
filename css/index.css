@@ -713,6 +713,7 @@
 }
 .product_form_main_content_div_size_text_bot{
   font-family: Inter;
+  padding-left: 0px;
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -722,6 +723,8 @@
   text-decoration-style: solid;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
   color: #C4B0A2;
 }
 
@@ -1275,9 +1278,6 @@
 }
 .size_hadder_exit{
   justify-self: end;
-  text-align: center;
-  text-decoration: none;
-  color: #C4B0A2;
   width: 52px;
   height: 52px;
   padding: 12px;
@@ -1447,4 +1447,16 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #2A2824B2 ;
+}
+
+/*Модалка*/
+.modal-dialog{
+  display: flex;
+  position: absolute;
+  padding-left: 20%;
+}
+.modal-content{
+  width: 1120px;
+  height: 622px;
+  justify-content: center;
 }

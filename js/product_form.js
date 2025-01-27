@@ -76,9 +76,9 @@ document.getElementById('item_venako_m').innerHTML = productDetail.map(product =
               <div class="product_form_main_content_div_size_text_top">
                 Размер стола
               </div>
-              <a href="/size.html" class="product_form_main_content_div_size_text_bot">
+              <button type="button" class="product_form_main_content_div_size_text_bot" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Таблица размеров
-              </a>
+              </button>
             </div>            
             <div class="product_form_main_content_div_size_variants">
               <div class="product_form_main_content_div_size_variants_first">
@@ -227,6 +227,195 @@ document.getElementById('item_venako_m').innerHTML = productDetail.map(product =
                 В КОРЗИНУ
               </button>
             </div>
+
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                    <div class="size_hadder">
+                      <div class="size_hadder_maintext">
+                          Таблица размеров
+                      </div>
+                      <button type="button" class="size_hadder_exit btn-close" data-bs-dismiss="modal" aria-label="Close">
+                          
+                      </button>
+                      <div class="size_hadder_lowtext">
+                          Наша таблица поможет вам определиться с размером 
+                          и формой столешницы, а также с высотой стола вашей мечты!
+                      </div>
+                      </div>
+                    <div class="size_table">
+                      <div class="size_table_top_first">
+                          Фото
+                      </div>
+                      <div class="size_table_top_other">
+                          Форма столешницы
+                      </div>  
+                      <div class="size_table_top_other">
+                          Высота (мм)
+                      </div>  
+                      <div class="size_table_top_other">
+                          Ширина (мм)
+                      </div>  
+                      <div class="size_table_top_other">
+                          Длина (мм)
+                      </div>  
+                      <div class="size_table_top_other">
+                          Диаметр (мм)
+                      </div>  
+                      <div class="size_table_top_other">
+                          Диагональ (мм)
+                      </div>  
+
+                      <div class="size_table_firstcolom">
+                        <img src="/img/venako_size.png" alt="" class="size_table_firstcolom_img">
+                      </div>
+                      <div class="size_table_maincontent">
+                        <div class="size_table_maincontent_venako">
+                          <div id="rectangle" class="size_table_maincontent_venako_figure">
+                          </div>
+                          <div class="size_table_maincontent_venako_text">
+                            Венако
+                          </div>
+                        </div>
+                        </div>
+                        <div	class="size_table_maincontent">
+                          1700
+                        </div>
+                        <div	class="size_table_maincontent">
+                          1200
+                        </div>
+                        <div	class="size_table_maincontent">
+                          700
+                        </div>
+                        <div	class="size_table_maincontent">
+                          -
+                        </div>
+                        <div	class="size_table_maincontent">
+                          -
+                        </div>
+
+                        <div class="size_table_firstcolom">
+                          <img src="/img/vense_size.png" alt="" class="size_table_firstcolom_img">
+                        </div>
+                        <div class="size_table_maincontent">
+                          <div class="size_table_maincontent_vense">
+                            <div id="rectangle" class="size_table_maincontent_vense_figure">
+                            </div>
+                            <div class="size_table_maincontent_vense_text">
+                              Венсе
+                            </div>
+                          </div>
+                        </div>
+                        <div	class="size_table_maincontent">
+                          1700
+                        </div>
+                        <div	class="size_table_maincontent">
+                          1150
+                        </div>
+                        <div	class="size_table_maincontent">
+                          1150
+                        </div>
+                        <div	class="size_table_maincontent">
+                          -
+                        </div>
+                        <div	class="size_table_maincontent">
+                          1260
+                        </div>
+
+                        <div class="size_table_firstcolom">
+                          <img src="/img/leer_size.png" alt="" class="size_table_firstcolom_img">
+                        </div>
+                        <div class="size_table_maincontent">
+                          <div class="size_table_maincontent_leer">
+                            <div id="rectangle" class="size_table_maincontent_leer_figure">
+                            </div>
+                            <div class="size_table_maincontent_leer_text">
+                              Леер
+                            </div>
+                          </div>
+                        </div>
+                        <div	class="size_table_maincontent">
+                          1700
+                        </div>
+                        <div	class="size_table_maincontent">
+                          -
+                        </div>
+                        <div	class="size_table_maincontent">
+                          -
+                        </div>
+                        <div	class="size_table_maincontent">
+                          1000
+                        </div>
+                        <div	class="size_table_maincontent">
+                          -
+                        </div>
+
+                        <div class="size_table_firstcolom">
+                          <img src="/img/venako2_size.png" alt="" class="size_table_firstcolom_img">
+                        </div>
+                        <div class="size_table_maincontent">
+                        <div class="size_table_maincontent_venako">
+                          <div id="rectangle" class="size_table_maincontent_venako_figure">
+                          </div>
+                          <div class="size_table_maincontent_venako_text">
+                            Венако
+                          </div>
+                        </div>
+                        </div>
+                        <div	class="size_table_maincontent">
+                          1700
+                        </div>
+                        <div	class="size_table_maincontent">
+                          1200
+                        </div>
+                        <div	class="size_table_maincontent">
+                          700
+                        </div>
+                        <div	class="size_table_maincontent">
+                          -
+                        </div>
+                        <div	class="size_table_maincontent">
+                          -
+                        </div>
+
+                        <div class="size_table_firstcolom">
+                          <img src="/img/vense2_size.png" alt="" class="size_table_firstcolom_img">
+                        </div>
+                        <div class="size_table_maincontent">
+                          <div class="size_table_maincontent_vense">
+                            <div id="rectangle" class="size_table_maincontent_vense_figure">
+                            </div>
+                            <div class="size_table_maincontent_vense_text">
+                              Венсе
+                            </div>
+                          </div>
+                        </div>
+                        <div	class="size_table_maincontent">
+                          1700
+                        </div>
+                        <div	class="size_table_maincontent">
+                          1150
+                        </div>
+                        <div	class="size_table_maincontent">
+                          1150
+                        </div>
+                        <div	class="size_table_maincontent">
+                          -
+                        </div>
+                        <div	class="size_table_maincontent">
+                          1260
+                        </div>
+
+                      </div>
+                </div>
+                </div>
+              </div>
+            </div>
+
+
+
 
           </div>
         </div>
