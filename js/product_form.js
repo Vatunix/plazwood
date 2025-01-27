@@ -76,7 +76,7 @@ document.getElementById('item_venako_m').innerHTML = productDetail.map(product =
               <div class="product_form_main_content_div_size_text_top">
                 Размер стола
               </div>
-              <a href="/index.html" class="product_form_main_content_div_size_text_bot">
+              <a href="/size.html" class="product_form_main_content_div_size_text_bot">
                 Таблица размеров
               </a>
             </div>            
